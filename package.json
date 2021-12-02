@@ -1,0 +1,16 @@
+{
+    "private": true,
+    "name": "@hybrid-app/with-xstate-app",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@xstate/react": "^1.3.1",
+        "next": "latest",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "xstate": "^4.17.0"
+    }
+}
