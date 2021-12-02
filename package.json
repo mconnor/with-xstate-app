@@ -1,6 +1,9 @@
 {
     "private": true,
-    "name": "@hybrid-app/with-xstate-app",
+    "name": "@hybrid-app/xstate-app",
+    "version": "0.0.1",
+    "main": "pages/index.ts",
+    "homepage": "https://github.com/mconnor/with-xstate-app.git",
     "scripts": {
         "dev": "next",
         "build": "next build",
