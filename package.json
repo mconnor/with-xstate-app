@@ -13,11 +13,10 @@
     },
     "dependencies": {
         "@hybrid-app/app": "*",
-       
         "@xstate/react": "^1.6.3",
         "xstate": "^4.26.1"
     },
     "devDependencies": {
-        "@hybrid-app/eslint": "*"
+        "@hybrid-app/eslint-config": "*"
     }
 }
