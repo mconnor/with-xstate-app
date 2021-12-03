@@ -13,9 +13,7 @@
     },
     "dependencies": {
         "@hybrid-app/app": "*",
-        "@hybrid-app/eslint-config": "~0.0.1",
-        "@hybrid-app/next": "*",
-        "@hybrid-app/theme": "~0.0.1",
+       
         "@xstate/react": "^1.6.3",
         "xstate": "^4.26.1"
     },
