@@ -18,14 +18,8 @@
         "@types/*": [
             "types/*"
         ],
-        "@environment/*": [
-            "environments/*"
-        ],
-        "@shared/*": [
-            "app/_shared/*"
-        ],
-        "@helpers/*": [
-            "helpers/*"
+        "@machines/*": [
+            "machines/*"
         ]
     },
     "noEmit": true,

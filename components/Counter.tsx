@@ -1,6 +1,7 @@
-import { Container, Heading, Button, Box } from 'native-base'
+import { Container, Heading, Button } from 'native-base'
 import type { CounterObjType } from 'types'
-export default function Counter({ counter }: CounterObjType) {
+
+export  function Counter({ counter }: CounterObjType) {
   return (
       <Container>
       <Heading>

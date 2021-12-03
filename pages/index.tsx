@@ -3,8 +3,9 @@ import { Counter, Toggle } from 'components'
 import { toggleMachine, counterMachine } from 'machines'
 
 import { Container, VStack, Box } from 'native-base'
+import { HelloWorld}  from '@hybrid-app/app'
 
-const IndexPage = () => {
+export default function IndexPage() {
     const [toggleCurrent, toggleSend] = useMachine(toggleMachine)
     const [counterCurrent, counterSend] = useMachine(counterMachine, {
         context: { count: 999 },
@@ -29,9 +30,8 @@ const IndexPage = () => {
                         active={toggleCurrent.matches('active')}
                     />
                 </Box>
+                <HelloWorld />
             </VStack>
         </Container>
     )
 }
-
-export default IndexPage

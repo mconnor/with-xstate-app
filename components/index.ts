@@ -1,4 +1,3 @@
-import Counter from 'components/Counter'
-import Toggle from 'components/Toggle'
 
-export { Counter, Toggle }
+export * from './Counter'
+export * from './Toggle'

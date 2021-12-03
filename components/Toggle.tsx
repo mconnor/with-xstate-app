@@ -1,7 +1,11 @@
-import { Container, Heading, Button, Box } from 'native-base'
+import { Container, Heading, Button } from 'native-base'
 
 
-const Toggle = ({ onToggle, active }) => {
+type ToggleTpe ={
+    onToggle:()=>void
+    active:boolean
+}
+export function Toggle({ onToggle, active }: ToggleTpe) {
     return (
         <Container>
             <Heading>
@@ -12,4 +16,3 @@ const Toggle = ({ onToggle, active }) => {
     )
 }
 
-export default Toggle
