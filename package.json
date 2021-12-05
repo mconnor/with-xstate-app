@@ -9,7 +9,7 @@
         "build": "next build",
         "start": "next start",
         "lint": "eslint -c .eslintrc.js --ext .tsx --ext .ts ./ ",
-        "lint-fix": "eslint -c .eslintrc.js --ext .tsx --ext .ts ./ --fix"
+        "fix": "eslint -c .eslintrc.js --ext .tsx --ext .ts ./ --fix"
     },
     "dependencies": {
         "@hybrid-app/app": "*",
