@@ -1,14 +1,13 @@
+import { HelloWorld } from '@hybrid-app/app'
 import { useMachine } from '@xstate/react'
 import { Counter, Toggle } from 'components'
 import { toggleMachine, counterMachine } from 'machines'
-
 import { Container, VStack, Box } from 'native-base'
-import { HelloWorld}  from '@hybrid-app/app'
 
 export default function IndexPage() {
     const [toggleCurrent, toggleSend] = useMachine(toggleMachine)
     const [counterCurrent, counterSend] = useMachine(counterMachine, {
-        context: { count: 999 },
+        context: { count: 999 }
     })
 
     return (
@@ -20,7 +19,7 @@ export default function IndexPage() {
                             count: counterCurrent.context.count,
                             increment: () => counterSend('INC'),
                             decrement: () => counterSend('DEC'),
-                            reset: () => counterSend('RESET'),
+                            reset: () => counterSend('RESET')
                         }}
                     />
                 </Box>

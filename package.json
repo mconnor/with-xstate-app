@@ -8,8 +8,8 @@
         "dev": "next",
         "build": "next build",
         "start": "next start",
-        "lint": "eslint -c .eslintrc.js --ext .tsx --ext .ts ./ ",
-        "fix": "eslint -c .eslintrc.js --ext .tsx --ext .ts ./ --fix"
+        "lint": "eslint --ext js,ts,tsx .",
+        "fix": "eslint --ext js,ts,tsx . --fix"
     },
     "dependencies": {
         "@hybrid-app/app": "*",
@@ -18,5 +18,8 @@
     },
     "devDependencies": {
         "@hybrid-app/eslint-config": "*"
+    },
+    "eslintConfig": {
+        "extends": "@hybrid-app/eslint-config"
     }
 }
