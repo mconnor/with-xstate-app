@@ -8,16 +8,18 @@
         "dev": "next",
         "build": "next build",
         "start": "next start",
-        "lint": "eslint --ext js,ts,tsx .",
-        "fix": "eslint --ext js,ts,tsx . --fix"
+        "lint": "yarn my:lint",
+        "fix": "yarn my:fix"
     },
     "dependencies": {
         "@hybrid-app/app": "*",
         "@xstate/react": "^1.6.3",
+        "react-native": "0.64.3",
         "xstate": "^4.26.1"
     },
     "devDependencies": {
-        "@hybrid-app/eslint-config": "*"
+        "@hybrid-app/eslint-config": "*",
+        "@types/react-native": "~0.64.19"
     },
     "eslintConfig": {
         "extends": "@hybrid-app/eslint-config"
