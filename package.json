@@ -19,7 +19,7 @@
     },
     "devDependencies": {
         "@hybrid-app/eslint-config": "*",
-        "@types/react-native": "~0.64.19"
+        "@types/react-native": "~0.64.12"
     },
     "eslintConfig": {
         "extends": "@hybrid-app/eslint-config"
